@@ -1,0 +1,119 @@
+body {
+    background: url('https://www.fiap.com.br/wp-content/themes/fiap2016/images/school/home/background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.centralizarCarrosel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.centralizarCarrosel .carousel-inner img {
+    margin: auto;
+}
+
+.footer-fiap {
+    background-color: #262626;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container>.row {
+    padding: 1em;
+}
+
+.container>.row>div {
+    margin-bottom: .5em;
+}
+
+ul.list-unstyled {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.list-unstyled>li>a {
+    color: white;
+    /* Cor do link */
+    text-decoration: none;
+    /* Remover sublinhado */
+}
+
+ul.list-unstyled>li>a:hover {
+    text-decoration: underline;
+    /* Sublinhado ao passar o mouse */
+}
+
+.text-center {
+    margin-top: 1em;
+    /* Espaçamento superior para a linha de direitos autorais */
+}
+
+/* Personalizações globais */
+body {
+    background-color: #f8f9fa;
+    /* Cor de fundo suave */
+}
+
+/* Personalizações para o cabeçalho da seção */
+section h1 {
+    color: #333;
+    /* Cor do título */
+    margin-bottom: 0.5em;
+    /* Espaço abaixo do título */
+}
+
+section p {
+    color: #555;
+    /* Cor do texto */
+    margin-bottom: 1em;
+    /* Espaço abaixo do parágrafo */
+}
+
+/* Personalizações para cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: #55555581;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    /* Sombra mais intensa ao passar o mouse */
+}
+
+.card img {
+    height: 200px;
+    /* Altura fixa para as imagens dos cards */
+    object-fit: cover;
+    /* Garante que a imagem cubra todo o espaço disponível */
+}
+
+.card-title {
+    color: #007bff;
+    /* Cor do título do card */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    /* Cor de fundo do botão */
+    border: none;
+    /* Remove a borda do botão */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Cor de fundo do botão ao passar o mouse */
+}
+
+.footerContato{
+    position: fixed;
+    bottom: 0;
+}
